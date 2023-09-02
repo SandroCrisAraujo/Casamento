@@ -3,3 +3,35 @@
     box-sizing: border-box;
     text-decoration: none;
     }
+
+body{
+    background-image: url('/imagens/background-blue.png');
+    background-size: cover;
+
+}
+
+.paleta{
+    color: 
+    #F4B8AE
+
+    #ABCCFF
+
+
+    #D7D0C8
+
+    #5C534C
+
+    #C7CCD0
+
+
+    #79A3D9
+
+    #A7C8F2
+    
+    #85DEF2
+
+    #D9967E
+
+    #F26B6B
+    ;
+}
