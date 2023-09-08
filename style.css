@@ -1,6 +1,6 @@
 /* Usando fonte externa */
 
-  @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Forum&family=Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Forum&family=Pompiere&display=swap');
 
 /* Usando fonte baixada */
 @font-face{
@@ -9,19 +9,7 @@
     font-weight: normal;
 }
 
-*{margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-
-body{
-    background: url('/imagens/background-blue.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.paleta{
+PALETA DE CORES{
     color: 
     #F4B8AE
 
@@ -47,11 +35,28 @@ body{
     ;
 }
 
-.center{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: url('/imagens/background-blue.png');
+    background-size: cover;
+}
+
+.container{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 2%;
+    gap: 20px;
+}
+
+.box{
+    display: flex;
     gap: 20px;
 }
 
@@ -61,7 +66,7 @@ body{
     box-shadow: #F26B6B 0px 0px 5px;
 }
 
-h1{
+.titulo{
     font-family: 'wonderful';
     font-size:medium;  
     text-align: center;  
@@ -69,32 +74,45 @@ h1{
     font-weight:lighter;
 }
 
-button{
+.btn{
     padding: 0.75em 1.5em;
-    border-radius: 12px;
-    border: none;
-    background-color: #F4B8AE;
-    box-shadow: #F26B6B 0px 0px 5px;    
+    border-radius: 9px;
+    border: none;    
 }
 
-button a{
+.blue{
+    background-color: #ABCCFF;
+    box-shadow: #79A3D9 0px 0px 5px;
+}
+
+.pink{
+    background-color: #F4B8AE;
+    box-shadow: #F26B6B 0px 0px 5px;
+}
+
+.btn .cta{
     font-family: 'Forum', cursive;
     font-size: medium;
     color: #5C534C;
 }
 
-button:hover{
+.btn:hover{
     opacity: 80%;
 }
 
-h3{
+.subtitulo{
     font-family: 'Cinzel Decorative', cursive;
     text-align: center;
+    font-weight: normal;
     color: #5C534C;
 }
 
+.subtitulo .bold{
+    font-weight: bolder;    
+}
 
-p{
+
+.text{
     font-family: 'Pompiere', cursive;
     text-align: center;
     color: #5C534C;
