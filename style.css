@@ -9,7 +9,7 @@
     font-weight: normal;
 }
 
-PALETA DE CORES{
+/* PALETA DE CORES{
     color: 
     #F4B8AE
 
@@ -33,7 +33,7 @@ PALETA DE CORES{
 
     #F26B6B
     ;
-}
+} */
 
 *{
     margin: 0;
@@ -111,7 +111,6 @@ body{
     font-weight: bolder;    
 }
 
-
 .text{
     font-family: 'Pompiere', cursive;
     text-align: center;
@@ -119,6 +118,7 @@ body{
 }
 
 footer{
+    padding: 10px;
     font-size: small;
     font-weight: lighter;
     text-align: center;
