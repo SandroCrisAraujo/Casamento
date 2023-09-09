@@ -1,0 +1,151 @@
+/* Usando fonte externa */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Forum&family=Pompiere&display=swap');
+
+/* Usando fonte baixada */
+@font-face{
+    font-family: "wonderful";
+    src: url('/fonts/Wonderful Branding.ttf') format(truetype);
+    font-weight: normal;
+}
+
+/* PALETA DE CORES{
+    color: 
+    #F4B8AE
+
+    #ABCCFF
+
+
+    #D7D0C8
+
+    #5C534C
+
+    #C7CCD0
+
+
+    #79A3D9
+
+    #A7C8F2
+    
+    #85DEF2
+
+    #D9967E
+
+    #F26B6B
+    ;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: url('/imagens/background-blue.png');
+    background-size: cover;
+}
+
+.header{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.titulo{
+    font-family: "wonderful";
+    text-align: center;  
+    color: #5C534C;
+    font-weight:lighter;
+    text-shadow: #F26B6B 1px 1px 2px;
+}
+
+.container{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;    
+}
+
+.container-pix{
+    display: flex;
+    background-color: #fefefe;    
+    padding: 30px;            
+    margin: 0px auto;
+   
+    border-radius: 6px;
+    box-shadow: 0px 0px 50px  #79A3D9;
+}
+
+.img-pix{
+    
+    margin: 0 auto;
+    
+    height: 200px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px #626262;
+}
+
+.subtitulo{
+    font-family: 'Pompiere', cursive;
+    font-weight: lighter;
+    font-size: xx-large;
+    margin-top: 30px;
+    text-align: center;
+    color: #5C534C;
+    text-shadow: #F26B6B 1px 1px 2px;    
+}
+
+.container-presentes{
+    display: flex;            
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;   
+}       
+
+.lista-presentes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+
+.img-presente{
+    width: 200px;
+    box-shadow: #79A3D9 0px 0px 5px;
+}
+
+.prev{
+    font-family: 'Pompiere', cursive;
+    display: inline;
+    font-size: x-large;
+    list-style: none;
+    color: #5C534C;
+    text-decoration: none;
+    padding: 5px;    
+    
+}
+
+.prev:hover{
+    color: #f8a1c0;
+    text-shadow: 1px 1px 2px #F26B6B;
+}
+
+.item{
+    list-style: none;    
+    margin: 20px;            
+    background-color: #e6e4e4;   
+    border-radius: 9px;
+}
+
+.item:hover{
+    opacity: 70%;
+}
+
+footer{
+    padding: 10px;
+    font-size: small;
+    font-weight: lighter;
+    text-align: center;    
+    color: #5C534C;
+}
