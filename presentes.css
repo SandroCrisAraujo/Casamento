@@ -142,6 +142,10 @@ body{
     opacity: 70%;
 }
 
+.select{
+    border: #f8a1c0 solid 4px;
+}
+
 footer{
     padding: 10px;
     font-size: small;
